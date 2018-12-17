@@ -1,8 +1,9 @@
 # Google Tag Manager
 
+[![Build Status](https://travis-ci.org/wanze/statamic-google-tag-manager.svg?branch=master)](https://travis-ci.org/wanze/statamic-google-tag-manager)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Integrates Google Tag Manager (GTM) in Statamic 2. The GTM javascript is rendered via tags.
+Integrates Google Tag Manager (GTM) in [Statamic 2](https://statamic.com). The GTM javascript is rendered via tags.
 
 ## Installation
 
