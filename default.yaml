@@ -1,0 +1,6 @@
+container_id: ''
+data_layer_variable: dataLayer
+exclude_paths: []
+exclude_authenticated: true
+exclude_user_roles: []
+exclude_user_groups: []

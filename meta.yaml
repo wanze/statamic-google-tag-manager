@@ -1,0 +1,6 @@
+name: 'Google Tag Manager'
+version: '1.0'
+description: 'Add and configure Google Tag Manager.'
+url: 'https://statamic.com/marketplace/addons/google-tag-manager'
+developer: 'Stefan Wanzenried'
+developer_url: 'https://github.com/wanze'

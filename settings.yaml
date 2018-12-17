@@ -1,0 +1,37 @@
+fields:
+  general:
+    type: section
+    display: General
+  container_id:
+    type: text
+    display: Container ID
+    instructions: The ID assigned by Google Tag Manager (GTM) for this website container.
+    placeholder: GTM-XXX
+  data_layer_variable:
+    type: text
+    display: Data Layer
+    instructions: The name of the data layer. Default value is `dataLayer`. In most cases, use the default.
+  exclusions:
+    type: section
+    display: Exclusions
+    instructions: Exclude GTM javascript snippets for some pages or users.
+  exclude_paths:
+    display: Paths
+    instructions: Enter paths where the GTM javascript should be omitted. You may use `*` as wildcard, e.g. `/about*` will exclude every page under `/about`.
+    type: list
+  exclude_authenticated:
+    type: toggle
+    display: Authenticated users
+    instructions: Exclude GTM javascript for all authenticated users. If set to `false`, you might exclude for specific roles or groups.
+  exclude_user_roles:
+    type: list
+    display: User roles
+    instructions: Enter role names.
+    show_when:
+      exclude_authenticated: false
+  exclude_user_groups:
+    type: list
+    display: User groups
+    instructions: Enter group names.
+    show_when:
+      exclude_authenticated: false
